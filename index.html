@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Panini Sammlerkarte erstellen</h1>
+      <div class="panini-cards" id="paniniCard"></div>
+      <form id="paniniForm">
+        <label>Name:</label>
+        <input type="text" id="name" required /><br />
+
+        <label>Alter:</label>
+        <input type="number" id="age" required /><br />
+
+        <label>Verkaufte Alben:</label>
+        <input type="number" id="albums" required /><br />
+
+        <label>Hintergrund-Link:</label>
+        <input type="text" id="backgroundLink" /><br />
+
+        <button type="button" onclick="createPaniniCard()">
+          Paninikarte erstellen
+        </button>
+      </form>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
